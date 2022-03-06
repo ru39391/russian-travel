@@ -1,0 +1,8 @@
+.place {
+  display: grid;
+  gap: 40px 48px;
+  grid-template-rows: repeat(2,min-content);
+  grid-template-columns: minmax(auto,47%) 1fr;
+  grid-template-areas: "place__title place__website" "place__image place__content";
+  margin: 0 0 80px;
+}
