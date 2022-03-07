@@ -1,3 +1,10 @@
 .place__content {
   grid-area: place__content;
 }
+
+@media (max-width:767px) {
+  .place__content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

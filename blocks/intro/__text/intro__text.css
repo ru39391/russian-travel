@@ -3,3 +3,15 @@
   line-height: 1.6;
   margin: 0 0 32px;
 }
+
+@media (min-width:1280px) {
+  .intro__text {
+    width: 54%;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+  .intro__text {
+    width: 67%;
+  }
+}

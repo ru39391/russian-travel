@@ -2,3 +2,11 @@
   align-self: end;
   grid-area: place__website;
 }
+
+@media (max-width:767px) {
+  .place__website {
+    margin: 0 0 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

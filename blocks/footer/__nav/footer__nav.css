@@ -1,6 +1,18 @@
 .footer__nav {
-  display: flex;
-  margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media (min-width:768px) {
+  .footer__nav {
+    display: flex;
+    margin: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .footer__nav {
+    overflow: hidden;
+    margin: 0 0 16px;
+  }
 }
